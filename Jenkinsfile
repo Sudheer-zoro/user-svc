@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Sudheer-zoro/user-svc.git'
+                git branch: 'main', url: 'https://github.com/Sudheer-zoro/user-svc.git'
             }
         }
 
